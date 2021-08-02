@@ -6,3 +6,4 @@ class Facts(models.Model):
     year = models.IntegerField()
     description = models.TextField()
     category = models.CharField(max_length=100, default = "")
+    location = models.CharField(max_length=100, default = "")
