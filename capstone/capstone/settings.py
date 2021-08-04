@@ -58,7 +58,7 @@ INSTALLED_APPS = [
     'facts.apps.FactsConfig',
     'rest_framework',
     'corsheaders',
-    'users.apps.UsersConfig',
+    'users.apps.UsersConfig'
 ]
 
 MIDDLEWARE = [
